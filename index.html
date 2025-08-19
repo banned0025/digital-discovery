@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Discovery for Seniors</title>
+    <link rel="shortcut icon" href="xFiles/xlogo.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/css.css">
+    <!-- CDN (Content Delivery Network) -->
+    <!-- Intro.js CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css">
+    <script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="home" data-step="1" data-intro="This is the LOGO of our platform. <br>-Asya po ini itun LOGO ngan ngaran hitun amun plataporma">
+        <div class="logo">
+            <img src="xFiles/xlogo.jpg" alt="Logo">
+        </div>
+        <h1> DIGITAL DISCOVERY FOR ELDERLY PEOPLE</h1>
+        <div class="menu-toggle" onclick="toggleNavbar()" data-step="2"
+            data-intro="Click here to see the side-bar. <br> -Pinduta ine para makita an gilid nga pag pipilian (gin tatawag po ini natun nga Side-Bar)">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <!-- Sidebar Navbar -->
+        <nav class="navbar" id="navbar" data-step="3"
+            data-intro="Use this Side-Bar when you want to go back Home, About Us Page, and to Start Learning.<br> -Gamita ini nga Side-Bar para mag pili kun karuyag mo bumalik hine nga parte, kumadto hitun impormasyon hitun mga nag himo hine, o kumadto deritso han mga aradman">
+            <a href="#home" data-step="4" data-intro="Click if you want back home. -Kun karuyag mo bumalik hine nga parte"><i
+                    class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html" data-step="5"
+                data-intro="Click if you want to know about the creators of this platform. <br>-Kun karuyag mo hibaro hit impormasyon mahitungod han mga nag himo hine"><i
+                    class="fas fa-question"></i><span>About Us</span></a>
+            <a href="#courses" data-step="6" data-intro="Click here if you want to see the list of learning modules. <br>-Kun karuyag mo makita an lista han mga aradman"><i
+                    class="fas fa-graduation-cap"></i><span>Lessons</span></a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home-grid" data-step="7"
+        data-intro="This is the information or explanation about our platform. <br>-Asya po ine itun haliputay nga impormasyon o eksplinasyon mahitungod han amun plataporma">
+        <div class="text">
+            <blockquote>
+                "Digital Discovery for Elders is an interactive learning platform
+                designed to help Filipino senior citizens build confidence, improve digital skills, and stay safe
+                online.<br>
+                Learn at your own pace with easy-to-use lessons made just for you."
+            </blockquote>
+            <blockquote class="waray">
+                <em>"An Digital Discovery para ha mga elders amo an usa nga interactive nga plataporma na ginhimo para
+                    mabuligan an mga Pilipino nga senior citizen nga magka may ada kumpiyansa, mapa-uswag an ira
+                    digital nga mga abilidad, ngan magin talwas ha paggamit han internet.<br>
+                    Mag-aram ha imo kalugaringon nga
+                    oras pinaagi han gin pasayon nga mga leksyon nga gin-andam para ha imo."</em>
+            </blockquote>
+            <div class="bttn" data-step="8"
+                data-intro="Here you can choose whether you want to be guided or you want to be directed to start learning. <br>-Didi puydi ka po mag Pili kun karuyag mo mag pa alalay o kun karuyag mo deritso mag aram">
+                <a class="button-link"><button onclick="introJs().start()">
+                        <i class="fas fa-user"></i> GUIDE ME <br><i>"Alalayi ako"</i>
+                    </button></a>
+                <a href="#courses" class="button-link">
+                    <button><i class="fas fa-play"></i> START LEARNING <br> <i>"Tikangi Pag-aram"</i></button></a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="xFiles/R.jpg" alt="Elderly couple" />
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses" data-step="" data-intro="Here you can fine the learning modules. <br>-Dinhi naman makikita an kada modyul.">
+        <div class="box-container">
+            <div class="box">
+                <a href="cybersecurity.html" class="button-link">
+                    <img src="xFiles/x1.png" alt="Cybersecurity Icon">
+                    <span>1 video<br><i>(Usa nga mga bidyo)</i></span>
+                    <h3>All About Cyberse curity</h3>
+                    view playlist<br><i>(Kitaan an mga lista han bidyo)</i>
+                </a>
+            </div>
+            <div class="box">
+                <a href="device.html" class="button-link">
+                    <img src="xFiles/x3.png" alt="Device Icon">
+                    <span>2 modules<br><i>(duha nga mga aradman)</i></span>
+                    <h3>Device Learning</h3>
+                    view playlist<br><i>(Kitaan an mga lista han bidyo)</i>
+                </a>
+            </div>
+            <div class="box">
+                <a href="social.html" class="button-link">
+                    <img src="xFiles/x2.png" alt="Social Media Icon">
+                    <span>3 modules<br><i>(Tulo nga mga aradman)</i></span>
+                    <h3>Social Media Learning</h3>
+                    view playlist<br><i>(Kitaan an mga lista han bidyo)</i>
+                </a>
+            </div>
+            <div class="box">
+                <a href="onlinebanks.html" class="button-link">
+                    <img src="xFiles/x4.png" alt="Online Bank Icon">
+                    <span>2 modules <br><i>(Duha nga mga aradman)</i></span>
+                    <h3>Online Banks</h3>
+                    view playlist <br><i>(Kitaan an mga lista han bidyo)</i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 DIGITAL DISCOVERY FOR ELDERLY PEOPLE
+    </footer>
+
+</body>
+
+<script>
+    function toggleNavbar() {
+        document.getElementById('navbar').classList.toggle('show');
+    }
+</script>
+
+
+</html>

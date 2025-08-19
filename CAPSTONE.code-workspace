@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../desgin"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "deploy"
+	}
+}

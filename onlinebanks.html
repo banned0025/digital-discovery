@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Digital Discovery for Seniors</title>
+   <link rel="shortcut icon" href="xFiles/xlogo.jpg" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+   <link rel="stylesheet" href="css\css.css">
+</head>
+
+<body>
+
+   <!-- Header -->
+   <header>
+      <div class="logo">
+         <img src="xFiles/xlogo.jpg" alt="Logo">
+      </div>
+      <h1> DIGITAL DISCOVERY FOR ELDERLY PEOPLE</h1>
+      <div class="menu-toggle" onclick="toggleNavbar()">
+         <i class="fas fa-bars"></i>
+      </div>
+
+      <!-- Sidebar Navbar -->
+      <nav class="navbar" id="navbar">
+         <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+         <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+         <a href="index.html#courses"><i class="fas fa-graduation-cap"></i><span>Lessons</span></a>
+      </nav>
+   </header>
+
+
+   <section class="playlist-details">
+      <a href="index.html" class="button-link1" title="Return to Home">
+         <i class="fas fa-home"></i>
+       </a>
+      <div class="column">
+         <div class="details">
+            <h3>ONLINE BANKS</h3>
+            <p>This topics helps our elders learn how does online banking works. 
+               <br> <em>"Ine nga aradman makakabulig haat mga elders pag hibaro kun paunan o itun pag gamit hitun mga online nga banko")</em></p>
+         </div>
+      </div>
+      </div>
+   </section>
+
+   <section class="playlist-videos">
+      <h1 class="heading">Lesson Videos</h1>
+      <div class="box-container">
+         <a class="box" href="watch-maya.html">
+            <i class="fas fa-play"></i>
+            <img src="xFiles/maya.jpg" alt="">
+            <h3>Click here if you want to learn about Maya app <br><em>"Pinduta adi kun karuyag mo mag aram hitun MAYA
+                  APP")</em></h3>
+         </a>
+
+         <a class="box" href="watch-gcash.html">
+            <i class="fas fa-play"></i>
+            <img src="xFiles/gcash.jpg" alt="">
+            <h3>Click here if you want to learn about gcash app <br> <em>"Pinduta adi kun karuyag mo mag aram hitun
+                  Gcash APP"</em></h3>
+         </a>
+      </div>
+   </section>
+
+   <footer class="footer">
+      &copy; 2025 Digital Discovery for Elderly People
+   </footer>
+</body>
+
+<script>
+   function toggleNavbar() {
+      document.getElementById('navbar').classList.toggle('show');
+   }
+</script>
+
+</html>

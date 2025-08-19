@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Digital Discovery for Seniors</title>
+   <link rel="shortcut icon" href="xFiles/xlogo.jpg" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+   <link rel="stylesheet" href="css\css.css">
+</head>
+
+<body>
+
+   <!-- Header -->
+   <header>
+      <div class="logo">
+         <img src="xFiles/xlogo.jpg" alt="Logo">
+      </div>
+      <h1> DIGITAL DISCOVERY FOR ELDERLY PEOPLE</h1>
+      <div class="menu-toggle" onclick="toggleNavbar()">
+         <i class="fas fa-bars"></i>
+      </div>
+
+      <!-- Sidebar Navbar -->
+      <nav class="navbar" id="navbar">
+         <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+         <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+         <a href="index.html"><i class="fas fa-graduation-cap"></i><span>Lessons</span></a>
+      </nav>
+   </header>
+
+
+   <section class="playlist-details">
+      <a href="index.html" class="button-link1" title="Return to Home">
+         <i class="fas fa-home"></i>
+       </a>
+      <div class="column">
+         <div class="details">
+            <h3>DEVICE LEARNING</h3>
+            <p>This topics helps our elders knowing important matters in our devices.
+               <br> <em>"Ine nga aradman makakabulig haat mga elders pag hibaro kun paunan o itun pag gamit hitun atun
+                  mga devices"</em>
+            </p>
+         </div>
+      </div>
+      </div>
+   </section>
+
+   <section class="playlist-videos">
+      <h1 class="heading">Lesson Videos</h1>
+      <div class="box-container">
+         <a class="box" href="watch-deviceandroid.html">
+            <i class="fas fa-play"></i>
+            <img src="xFiles/device.jpg" alt="">
+            <h3>Click here if you want to learn about any android phone
+               <br><em>"Pinduta adi kun karuyag mo mag aram hitun bisan anu nga android nga selpon")</em>
+            </h3>
+         </a>
+
+         <a class="box" href="watch-deviceapple.html">
+            <i class="fas fa-play"></i>
+            <img src="xFiles/iphone.jpg" alt="">
+            <h3>Click here if you want to learn about apple phones/Iphone
+               <br> <em>"Pinduta adi kun karuyag mo mag aram hitun Apple nga selpon/Iphone"</em>
+            </h3>
+         </a>
+      </div>
+   </section>
+
+   <footer class="footer">
+      &copy; 2025 Digital Discovery for Elderly People
+   </footer>
+</body>
+
+<script>
+   function toggleNavbar() {
+      document.getElementById('navbar').classList.toggle('show');
+   }
+</script>
+
+</html>
